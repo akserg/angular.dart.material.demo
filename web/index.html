@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+Copyright (C) 2013 - 2015 Angular Dart UI authors. Please see AUTHORS.md.
+https://github.com/akserg/angular.dart.ui
+All rights reserved.  Please see the LICENSE.md file.
+-->
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AngularDart directives for Twitter's Bootstrap</title>
+    <meta name="description" content="AngularDart (Angular) native directives for Twitter Bootstrap written on Dart.">
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="assets/rainbow.css"/>
+    <link rel="stylesheet" href="packages/angular_ui/css/angular.css">
+    <link rel="stylesheet" href="packages/angular_ui/carousel/slide.css">
+    <link rel="stylesheet" href="assets/material-wfont.css">
+    <link rel="stylesheet" href="assets/ripples.css">
+    <link rel="stylesheet" href="assets/main.css">
+  </head>
+  <body ng-cloak>
+    <header-component></header-component>
+    
+    <div class="header-placeholder"></div>
+    
+    <div role="main">
+      <jumbotron-component></jumbotron-component>
+  
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <sidebar-component></sidebar-component>
+            <getting-started-component></getting-started-component>
+            <module-component></module-component>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Built (ported from JavaScript) by <a href="https://github.com/akserg/angular.dart.ui/blob/master/AUTHORS.md" target="_blank">see authors file</a> or <a href="https://github.com/akserg/angular.dart.ui/graphs/contributors" target="_blank">contributors list</a>.</p>
+        <p>Code licensed under <a href="https://github.com/akserg/angular.dart.ui/blob/master/LICENSE">Apache License, Version 2.0</a>.</p>
+        <p><a href="https://github.com/akserg/angular.dart.ui/issues?state=open">Issues</a></p>
+      </div>
+    </footer>
+  
+    <script type="application/dart" src="main.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>
+  
